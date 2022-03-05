@@ -15,19 +15,22 @@
 
 </head>
 <body class="bg-dark">
+    <!-- Navbar -->
     <div class="wrapper">
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
             <a class="navbar-brand" href="index.html">UFO Sightings</a>
 
         </nav>
     </div>    
+    <!-- Jumbotron -->
     <div class="jumbotron">
         <h1 class="display-4">The Truth is Out There</h1>
     </div>
+    <!-- Story header / subheader -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4">
-                <h3>UFO Sightings: Fact of Fancy? <small>Ufologists Weigh In</small></h3>
+                <h3>UFO Sightings: Fact of Fancy? <br><small>Ufologists Weigh In</small></h3>
             </div>
         <div class="col-md-8">
             <p>
@@ -35,24 +38,41 @@
             </p>
         </div>
     </div>
+    <!-- Filter Search Element -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-3">
                 <form class="bg-dark">
-                    <p>Filter Search</p>
-                    <ul class="bg-dark">
+                    <p><strong>Filter Search</strong></p>
+                    <ul class="bg-dark" style="list-style-type:none";>
                         <li class="bg-dark">
                             <label for="date">Enter Date</label>
                             <input type="text" placeholder="1/10/2010" id="datetime">
                         </li>
                         <li class="bg-dark">
-                            <button id="filter-btn" type="button" class="btn btn-dark">
-                                Filter Table
-                            </button>
+                            <label for="date">Enter a City</label>
+                            <input type="text" placeholder="roswell" id="city">
+                        </li>
+                        <li class="bg-dark">
+                            <label for="date">Enter a State</label>
+                            <input type="text" placeholder="ca" id="state">
+                        </li>
+                        <li class="bg-dark">
+                            <label for="date">Enter a Country</label>
+                            <input type="text" placeholder="us" id="country">
+                        </li>
+                        <li class="bg-dark">
+                            <label for="date">Enter a Shape</label>
+                            <input type="text" placeholder="circle" id="shape">
+                        </li>
+                        <li class="bg-dark">
+                            <!-- Step 2 = remove li element that creates button -->
+                            <!-- <button id="filter-btn" type="button" class="btn-primary btn-light">Filter Table</button> -->
                         </li>
                     </ul>
                 </form>
             </div>
+            <!-- Table -->
             <div class="col-md-9">
                 <table class="table table-striped">
                     <thead>
