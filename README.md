@@ -44,7 +44,7 @@ Additionally, multiple field entries can be combined, with the table updating li
 
 ### Potential use case
 
-This tool can be used, for example, to compare frequencies of sightings at various locations, where 
+This tool can be used to compare sightings at various locations and visualize trends. For example, the city "el cajon" returns five results - four of which occurring on the same evening. The fifth sighting, taking place three days later, mentions "fake stars" observed in the sky. Given that the description is less explicit than the others, and lacking corroboration by anyone else, this sighting reads as less credible.
 
 ## Summary
 ---
